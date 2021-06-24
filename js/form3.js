@@ -49,7 +49,7 @@ class Form3{
                         if(flag-1 === quesCount){
                             state = 0;
                             game.updateState(0)
-                            quesCount = 0;
+                            quesCount = 0; 
                             user.updateCount(0)
                             user.removeQuestions()
 
