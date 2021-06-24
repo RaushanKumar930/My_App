@@ -18,7 +18,7 @@ class Form3{
         User1.getQuestionInfo()
         this.next.html("Next >>")
         this.next.position(500,570)
-        this.back.html("<- Back")
+        this.back.html("<< Back")
         this.back.position(400,570)
         for(var i in allQuestions){
             if(i === "Question"+flag){
