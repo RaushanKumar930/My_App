@@ -1,9 +1,9 @@
 class Form3{
     constructor(){
-        this.ans2 = createInput("Answer: ")
-        this.check = createButton()
-        this.next = createButton()
-        this.back = createButton()
+        this.ans2 = createInput("Answer: ");
+        this.check = createButton();
+        this.next = createButton();
+        this.back = createButton();
     }
     hide(){
         this.ans2.hide()
